@@ -1,0 +1,14 @@
+I:\projectsC#\KinectChangeFace\KinectChangeFace\bin\Debug\KinectChangeFace.exe.config
+I:\projectsC#\KinectChangeFace\KinectChangeFace\bin\Debug\KinectChangeFace.exe
+I:\projectsC#\KinectChangeFace\KinectChangeFace\bin\Debug\KinectChangeFace.pdb
+I:\projectsC#\KinectChangeFace\KinectChangeFace\bin\Debug\Microsoft.Kinect.dll
+I:\projectsC#\KinectChangeFace\KinectChangeFace\bin\Debug\Microsoft.Kinect.xml
+I:\projectsC#\KinectChangeFace\KinectChangeFace\obj\Debug\MainWindow.baml
+I:\projectsC#\KinectChangeFace\KinectChangeFace\obj\Debug\MainWindow.g.cs
+I:\projectsC#\KinectChangeFace\KinectChangeFace\obj\Debug\App.g.cs
+I:\projectsC#\KinectChangeFace\KinectChangeFace\obj\Debug\KinectChangeFace_MarkupCompile.cache
+I:\projectsC#\KinectChangeFace\KinectChangeFace\obj\Debug\KinectChangeFace.g.resources
+I:\projectsC#\KinectChangeFace\KinectChangeFace\obj\Debug\KinectChangeFace.Properties.Resources.resources
+I:\projectsC#\KinectChangeFace\KinectChangeFace\obj\Debug\KinectChangeFace.csproj.GenerateResource.Cache
+I:\projectsC#\KinectChangeFace\KinectChangeFace\obj\Debug\KinectChangeFace.exe
+I:\projectsC#\KinectChangeFace\KinectChangeFace\obj\Debug\KinectChangeFace.pdb

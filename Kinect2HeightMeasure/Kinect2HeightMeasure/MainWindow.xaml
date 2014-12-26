@@ -1,0 +1,11 @@
+﻿<Window x:Class="Kinect2HeightMeasure.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="480" Width="640">
+    <Grid>
+        <Image Name="depthimg" HorizontalAlignment="Left" Height="424" Margin="10,10,0,0" VerticalAlignment="Top" Width="512"/>
+        <Label Name="heightlabel" Content="" HorizontalAlignment="Left" Margin="44,361,0,0" VerticalAlignment="Top" Width="478" Height="61" FontSize="72" Foreground="#FFDE2323"/>
+        <Label Name="tiplabel" Content="" HorizontalAlignment="Left" Margin="44,319,0,0" VerticalAlignment="Top" Background="#00000000" Foreground="#FFCF7878"/>
+
+    </Grid>
+</Window>

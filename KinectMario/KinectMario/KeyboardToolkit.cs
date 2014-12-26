@@ -1,0 +1,131 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+using System.Runtime.InteropServices;
+using System.Security;
+using System.Security.Permissions;
+using System.ComponentModel;
+using System.Windows.Input;
+namespace KinectMario
+{
+    class KeyboardToolkit
+    {
+        internal static class NativeMethods
+        {
+            #region User32
+            internal const int KeyeventfKeyup = 0x0002;
+            internal const int KeyeventfScancode = 0x0008;
+            internal const int InputKeyboard = 1;
+
+            [StructLayout(LayoutKind.Sequential)]
+            internal struct INPUT
+            {
+                internal int type;
+                internal INPUTUNION union;
+            };
+            [StructLayout(LayoutKind.Explicit)]
+            internal struct INPUTUNION
+            {
+                [FieldOffset(0)]
+                internal MOUSEINPUT mouseInput;
+                [FieldOffset(0)]
+                internal KEYBDINPUT keyboardInput;
+            };
+            [StructLayout(LayoutKind.Sequential)]
+            internal struct MOUSEINPUT
+            {
+                internal int dx;
+                internal int dy;
+                internal int mouseData;
+                internal int dwFlags;
+                internal int time;
+                internal IntPtr dwExtraInfo;
+            };
+
+            [StructLayout(LayoutKind.Sequential)]
+            internal struct KEYBDINPUT
+            {
+                internal short wVk;
+                internal short wScan;
+                internal int dwFlags;
+                internal int time;
+                internal IntPtr dwExtraInfo;
+            };
+
+            [DllImport("user32.dll", ExactSpelling = true, CharSet = CharSet.Auto)]
+            internal static extern int GetSystemMetrics(int nIndex);
+            [DllImport("user32.dll", CharSet = CharSet.Auto)]
+            internal static extern int MapVirtualKey(int nVirtKey, int nMapType);
+            [DllImport("user32.dll", SetLastError = true)]
+            internal static extern int SendInput(int nInputs, ref INPUT mi, int cbSize);
+            [DllImport("user32.dll", CharSet = CharSet.Auto)]
+            internal static extern short VkKeyScan(char ch);
+            #endregion User32
+        }
+        
+        public static class Keyboard
+        {
+            public static void Press(Key key)
+            {
+                SendKeyboardInput(key, true);
+            }
+
+            public static void Release(Key key)
+            {
+                SendKeyboardInput(key, false);
+            }
+
+            public static void Reset()
+            {
+                foreach (Key key in Enum.GetValues(typeof(Key)))
+                {
+                    if(key!=Key.None&&(System.Windows.Input.Keyboard.GetKeyStates(key)&KeyStates.Down)>0)
+                    {
+                        Release(key);
+                    }
+                }
+            }
+
+            public static void Type(Key key)
+            {
+                Press(key);
+                System.Threading.Thread.Sleep(100);
+                Release(key);
+            }
+
+            [PermissionSet(SecurityAction.Assert,Name="FullTrust")]
+            private static void SendKeyboardInput(Key key,bool press)
+            {
+                PermissionSet permissions = new PermissionSet(PermissionState.Unrestricted);
+                permissions.Demand();
+
+                NativeMethods.INPUT ki = new NativeMethods.INPUT();
+                ki.type = NativeMethods.InputKeyboard;
+                ki.union.keyboardInput.wVk = (short)KeyInterop.VirtualKeyFromKey(key);
+                ki.union.keyboardInput.wScan = (short)NativeMethods.MapVirtualKey(ki.union.keyboardInput.wVk, 0);
+
+                int dwFlags = 0;
+                if(ki.union.keyboardInput.wScan>0)
+                {
+                    dwFlags |= NativeMethods.KeyeventfScancode;
+                }
+
+                if(!press)
+                {
+                    dwFlags |= NativeMethods.KeyeventfKeyup;
+                }
+
+                ki.union.keyboardInput.dwFlags = dwFlags;
+                ki.union.keyboardInput.dwExtraInfo = new IntPtr(0);
+                ki.union.keyboardInput.time = 0;
+                if(NativeMethods.SendInput(1,ref ki,Marshal.SizeOf(ki))==0)
+                {
+                    throw new Win32Exception(Marshal.GetLastWin32Error());
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,12 @@
+﻿<Window x:Class="Kinectlocker.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="480" Width="800">
+    <Grid>
+        <Image Name="depth"  Height="424" Width="525" HorizontalAlignment="Left"/>
+        <Label Name="preavgdepth" Content="平均深度值：" HorizontalAlignment="Left" Margin="586,109,0,0" VerticalAlignment="Top"/>
+        <Label Name="curravgdepth" Content="当前平均深度值：" HorizontalAlignment="Left" Margin="586,243,0,0" VerticalAlignment="Top"/>
+        <Label Name="predepth" Content="" HorizontalAlignment="Left" Margin="586,139,0,0" VerticalAlignment="Top"/>
+        <Label Name="currdepth" Content="" HorizontalAlignment="Left" Margin="600,273,0,0" VerticalAlignment="Top"/>
+    </Grid>
+</Window>

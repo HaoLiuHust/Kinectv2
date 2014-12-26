@@ -1,0 +1,17 @@
+﻿生成启动时间为 2014-12-03 22:09:56。
+     1>项目“I:\projectsC#\kinectfaceRec\facedetector\facedetector.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt objectdetector.cpp
+         objectdetector.cpp
+     1>i:\projectsc#\kinectfacerec\facedetector\objectdetector.cpp(86): warning C4018: “<”: 有符号/无符号不匹配
+     1>i:\projectsc#\kinectfacerec\facedetector\objectdetector.cpp(95): warning C4018: “<”: 有符号/无符号不匹配
+     1>i:\projectsc#\kinectfacerec\facedetector\objectdetector.cpp(112): warning C4018: “<”: 有符号/无符号不匹配
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"I:\projectsC#\kinectfaceRec\Debug\facedetector.dll" /INCREMENTAL /NOLOGO opencv_calib3d248d.lib opencv_contrib248d.lib opencv_core248d.lib opencv_features2d248d.lib opencv_flann248d.lib opencv_gpu248d.lib opencv_highgui248d.lib opencv_imgproc248d.lib opencv_legacy248d.lib opencv_ml248d.lib opencv_objdetect248d.lib opencv_ts248d.lib opencv_video248d.lib avcodec.lib avformat.lib avdevice.lib avfilter.lib avutil.lib postproc.lib swresample.lib swscale.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"I:\projectsC#\kinectfaceRec\Debug\facedetector.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"I:\projectsC#\kinectfaceRec\Debug\facedetector.lib" /MACHINE:X86 /DLL Debug\objectdetector.obj
+            正在创建库 I:\projectsC#\kinectfaceRec\Debug\facedetector.lib 和对象 I:\projectsC#\kinectfaceRec\Debug\facedetector.exp
+         facedetector.vcxproj -> I:\projectsC#\kinectfaceRec\Debug\facedetector.dll
+     1>已完成生成项目“I:\projectsC#\kinectfaceRec\facedetector\facedetector.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.11

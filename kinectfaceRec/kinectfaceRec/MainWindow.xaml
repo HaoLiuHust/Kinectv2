@@ -1,0 +1,9 @@
+﻿<Window x:Class="kinectfaceRec.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Image Name="image" HorizontalAlignment="Left" Height="228" Margin="48,44,0,0" VerticalAlignment="Top" Width="416"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,14 @@
+I:\projectsC#\KinectDevelopKit\01\WpfApplication1\WpfApplication1\obj\Debug\MainWindow.baml
+I:\projectsC#\KinectDevelopKit\01\WpfApplication1\WpfApplication1\obj\Debug\MainWindow.g.cs
+I:\projectsC#\KinectDevelopKit\01\WpfApplication1\WpfApplication1\obj\Debug\App.g.cs
+I:\projectsC#\KinectDevelopKit\01\WpfApplication1\WpfApplication1\obj\Debug\ColorStream.Properties.Resources.resources
+I:\projectsC#\KinectDevelopKit\01\WpfApplication1\WpfApplication1\obj\Debug\ColorStream.csproj.GenerateResource.Cache
+I:\projectsC#\KinectDevelopKit\01\WpfApplication1\WpfApplication1\bin\Debug\Microsoft.Kinect.dll
+I:\projectsC#\KinectDevelopKit\01\WpfApplication1\WpfApplication1\bin\Debug\Microsoft.Kinect.xml
+I:\projectsC#\KinectDevelopKit\01\WpfApplication1\WpfApplication1\bin\Debug\ColorStream.exe.config
+I:\projectsC#\KinectDevelopKit\01\WpfApplication1\WpfApplication1\bin\Debug\ColorStream.exe
+I:\projectsC#\KinectDevelopKit\01\WpfApplication1\WpfApplication1\bin\Debug\ColorStream.pdb
+I:\projectsC#\KinectDevelopKit\01\WpfApplication1\WpfApplication1\obj\Debug\ColorStream_MarkupCompile.cache
+I:\projectsC#\KinectDevelopKit\01\WpfApplication1\WpfApplication1\obj\Debug\ColorStream.g.resources
+I:\projectsC#\KinectDevelopKit\01\WpfApplication1\WpfApplication1\obj\Debug\ColorStream.exe
+I:\projectsC#\KinectDevelopKit\01\WpfApplication1\WpfApplication1\obj\Debug\ColorStream.pdb

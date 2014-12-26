@@ -1,0 +1,15 @@
+I:\projectsC#\KinectMario\KinectMario\bin\Debug\KinectMario.exe.config
+I:\projectsC#\KinectMario\KinectMario\bin\Debug\KinectMario.exe
+I:\projectsC#\KinectMario\KinectMario\bin\Debug\KinectMario.pdb
+I:\projectsC#\KinectMario\KinectMario\bin\Debug\Microsoft.Kinect.dll
+I:\projectsC#\KinectMario\KinectMario\bin\Debug\Microsoft.Kinect.xml
+I:\projectsC#\KinectMario\KinectMario\obj\Debug\KinectMario.csprojResolveAssemblyReference.cache
+I:\projectsC#\KinectMario\KinectMario\obj\Debug\MainWindow.baml
+I:\projectsC#\KinectMario\KinectMario\obj\Debug\MainWindow.g.cs
+I:\projectsC#\KinectMario\KinectMario\obj\Debug\App.g.cs
+I:\projectsC#\KinectMario\KinectMario\obj\Debug\KinectMario_MarkupCompile.cache
+I:\projectsC#\KinectMario\KinectMario\obj\Debug\KinectMario.g.resources
+I:\projectsC#\KinectMario\KinectMario\obj\Debug\KinectMario.Properties.Resources.resources
+I:\projectsC#\KinectMario\KinectMario\obj\Debug\KinectMario.csproj.GenerateResource.Cache
+I:\projectsC#\KinectMario\KinectMario\obj\Debug\KinectMario.exe
+I:\projectsC#\KinectMario\KinectMario\obj\Debug\KinectMario.pdb

@@ -1,0 +1,15 @@
+I:\projectsC#\Kinect2HeightMeasure\Kinect2HeightMeasure\bin\Debug\Kinect2HeightMeasure.exe.config
+I:\projectsC#\Kinect2HeightMeasure\Kinect2HeightMeasure\bin\Debug\Kinect2HeightMeasure.exe
+I:\projectsC#\Kinect2HeightMeasure\Kinect2HeightMeasure\bin\Debug\Kinect2HeightMeasure.pdb
+I:\projectsC#\Kinect2HeightMeasure\Kinect2HeightMeasure\bin\Debug\Microsoft.Kinect.dll
+I:\projectsC#\Kinect2HeightMeasure\Kinect2HeightMeasure\bin\Debug\Microsoft.Kinect.xml
+I:\projectsC#\Kinect2HeightMeasure\Kinect2HeightMeasure\obj\Debug\MainWindow.baml
+I:\projectsC#\Kinect2HeightMeasure\Kinect2HeightMeasure\obj\Debug\MainWindow.g.cs
+I:\projectsC#\Kinect2HeightMeasure\Kinect2HeightMeasure\obj\Debug\App.g.cs
+I:\projectsC#\Kinect2HeightMeasure\Kinect2HeightMeasure\obj\Debug\Kinect2HeightMeasure_MarkupCompile.cache
+I:\projectsC#\Kinect2HeightMeasure\Kinect2HeightMeasure\obj\Debug\Kinect2HeightMeasure.g.resources
+I:\projectsC#\Kinect2HeightMeasure\Kinect2HeightMeasure\obj\Debug\Kinect2HeightMeasure.Properties.Resources.resources
+I:\projectsC#\Kinect2HeightMeasure\Kinect2HeightMeasure\obj\Debug\Kinect2HeightMeasure.csproj.GenerateResource.Cache
+I:\projectsC#\Kinect2HeightMeasure\Kinect2HeightMeasure\obj\Debug\Kinect2HeightMeasure.exe
+I:\projectsC#\Kinect2HeightMeasure\Kinect2HeightMeasure\obj\Debug\Kinect2HeightMeasure.pdb
+I:\projectsC#\Kinect2HeightMeasure\Kinect2HeightMeasure\obj\Debug\Kinect2HeightMeasure.csprojResolveAssemblyReference.cache

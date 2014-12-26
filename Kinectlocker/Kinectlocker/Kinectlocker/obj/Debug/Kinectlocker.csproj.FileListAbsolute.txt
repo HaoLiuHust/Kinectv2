@@ -1,0 +1,16 @@
+E:\study\Kinectlocker\Kinectlocker\Kinectlocker\bin\Debug\Kinectlocker.exe.config
+I:\projectsC#\Kinectlocker\Kinectlocker\Kinectlocker\bin\Debug\Kinectlocker.exe.config
+I:\projectsC#\Kinectlocker\Kinectlocker\Kinectlocker\bin\Debug\Kinectlocker.exe
+I:\projectsC#\Kinectlocker\Kinectlocker\Kinectlocker\bin\Debug\Kinectlocker.pdb
+I:\projectsC#\Kinectlocker\Kinectlocker\Kinectlocker\bin\Debug\Microsoft.Kinect.dll
+I:\projectsC#\Kinectlocker\Kinectlocker\Kinectlocker\bin\Debug\Microsoft.Kinect.xml
+I:\projectsC#\Kinectlocker\Kinectlocker\Kinectlocker\obj\Debug\Kinectlocker.csprojResolveAssemblyReference.cache
+I:\projectsC#\Kinectlocker\Kinectlocker\Kinectlocker\obj\Debug\MainWindow.baml
+I:\projectsC#\Kinectlocker\Kinectlocker\Kinectlocker\obj\Debug\MainWindow.g.cs
+I:\projectsC#\Kinectlocker\Kinectlocker\Kinectlocker\obj\Debug\App.g.cs
+I:\projectsC#\Kinectlocker\Kinectlocker\Kinectlocker\obj\Debug\Kinectlocker_MarkupCompile.cache
+I:\projectsC#\Kinectlocker\Kinectlocker\Kinectlocker\obj\Debug\Kinectlocker.g.resources
+I:\projectsC#\Kinectlocker\Kinectlocker\Kinectlocker\obj\Debug\Kinectlocker.Properties.Resources.resources
+I:\projectsC#\Kinectlocker\Kinectlocker\Kinectlocker\obj\Debug\Kinectlocker.csproj.GenerateResource.Cache
+I:\projectsC#\Kinectlocker\Kinectlocker\Kinectlocker\obj\Debug\Kinectlocker.exe
+I:\projectsC#\Kinectlocker\Kinectlocker\Kinectlocker\obj\Debug\Kinectlocker.pdb
